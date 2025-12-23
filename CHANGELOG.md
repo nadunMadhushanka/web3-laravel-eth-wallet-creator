@@ -2,6 +2,22 @@
 
 All notable changes to `eth-wallet-creator` will be documented in this file.
 
+## [1.1.0] - 2025-12-23
+
+### Changed
+- **Breaking:** Rebranded from SperaLabs to Nadun throughout entire package
+- Updated package name to `nadun/eth-wallet-creator`
+- Updated all namespaces from `SperaLabs\EthWallet` to `Nadun\EthWallet`
+- Extended Laravel compatibility to include Laravel 8.x
+- Extended PHP compatibility to support PHP 7.3+
+- Author email updated to nadungatamanna@gmail.com
+
+### Added
+- Support for Laravel 8.x
+- Support for PHP 7.3 and 7.4
+- Expanded Symfony Process compatibility (5.x, 6.x, 7.x)
+- Updated GitHub Actions workflow for broader version testing
+
 ## [1.0.0] - 2025-12-23
 
 ### Added

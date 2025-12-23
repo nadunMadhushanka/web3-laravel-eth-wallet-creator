@@ -1,6 +1,6 @@
 {
     "name": "nadun/eth-wallet-creator",
-    "description": "Laravel package for Ethereum wallet creation with mnemonic seed phrase support",
+    "description": "Laravel package for EVM compatible network wallet creation with mnemonic seed phrase support",
     "type": "library",
     "keywords": ["laravel", "ethereum", "wallet", "web3", "mnemonic", "bip39"],
     "license": "MIT",
