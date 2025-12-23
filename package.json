@@ -1,0 +1,21 @@
+{
+  "name": "eth-wallet-creator-bridge",
+  "version": "1.0.0",
+  "description": "Node.js bridge for Ethereum wallet generation",
+  "main": "node-bridge/wallet-generator.js",
+  "scripts": {
+    "test": "node node-bridge/wallet-generator.js test"
+  },
+  "keywords": [
+    "ethereum",
+    "wallet",
+    "mnemonic",
+    "bip39",
+    "web3"
+  ],
+  "author": "SperaLabs",
+  "license": "MIT",
+  "dependencies": {
+    "ethers": "^6.13.0"
+  }
+}
