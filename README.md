@@ -18,8 +18,8 @@ A powerful Laravel package for generating Ethereum wallets with **mnemonic seed 
 
 ## Requirements
 
-- PHP 8.0 or higher
-- Laravel 9.x, 10.x, or 11.x
+- PHP 7.3 or higher
+- Laravel 8.x, 9.x, 10.x, or 11.x
 - Node.js 16+ (with npm)
 - Composer
 
