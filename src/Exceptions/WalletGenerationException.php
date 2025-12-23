@@ -1,6 +1,6 @@
 <?php
 
-namespace SperaLabs\EthWallet\Exceptions;
+namespace Nadun\EthWallet\Exceptions;
 
 class WalletGenerationException extends \Exception
 {

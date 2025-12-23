@@ -13,7 +13,7 @@
     "bip39",
     "web3"
   ],
-  "author": "SperaLabs",
+  "author": "Nadun",
   "license": "MIT",
   "dependencies": {
     "ethers": "^6.13.0"

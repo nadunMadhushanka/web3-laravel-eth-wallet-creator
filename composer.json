@@ -1,13 +1,13 @@
 {
-    "name": "speralabs/eth-wallet-creator",
+    "name": "eth-wallet-creator",
     "description": "Laravel package for Ethereum wallet creation with mnemonic seed phrase support",
     "type": "library",
     "keywords": ["laravel", "ethereum", "wallet", "web3", "mnemonic", "bip39"],
     "license": "MIT",
     "authors": [
         {
-            "name": "SperaLabs",
-            "email": "info@speralabs.com"
+            "name": "nadun",
+            "email": "nadungatamanna@gmail.com"
         }
     ],
     "require": {
@@ -21,21 +21,21 @@
     },
     "autoload": {
         "psr-4": {
-            "SperaLabs\\EthWallet\\": "src/"
+            "Nadun\\EthWallet\\": "src/"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "SperaLabs\\EthWallet\\Tests\\": "tests/"
+            "Nadun\\EthWallet\\Tests\\": "tests/"
         }
     },
     "extra": {
         "laravel": {
             "providers": [
-                "SperaLabs\\EthWallet\\EthWalletServiceProvider"
+                "Nadun\\EthWallet\\EthWalletServiceProvider"
             ],
             "aliases": {
-                "EthWallet": "SperaLabs\\EthWallet\\Facades\\EthWallet"
+                "EthWallet": "Nadun\\EthWallet\\Facades\\EthWallet"
             }
         }
     },

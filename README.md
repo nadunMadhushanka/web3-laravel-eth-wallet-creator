@@ -1,7 +1,7 @@
 # Ethereum Wallet Creator for Laravel
 
-[![Latest Version](https://img.shields.io/packagist/v/speralabs/eth-wallet-creator.svg)](https://packagist.org/packages/speralabs/eth-wallet-creator)
-[![License](https://img.shields.io/packagist/l/speralabs/eth-wallet-creator.svg)](https://packagist.org/packages/speralabs/eth-wallet-creator)
+[![Latest Version](https://img.shields.io/packagist/v/nadun/eth-wallet-creator.svg)](https://packagist.org/packages/nadun/eth-wallet-creator)
+[![License](https://img.shields.io/packagist/l/nadun/eth-wallet-creator.svg)](https://packagist.org/packages/nadun/eth-wallet-creator)
 
 A powerful Laravel package for generating Ethereum wallets with **mnemonic seed phrase support** (BIP39). This package uses a hybrid approach combining PHP and Node.js (ethers.js) for secure cryptographic operations.
 
@@ -28,13 +28,13 @@ A powerful Laravel package for generating Ethereum wallets with **mnemonic seed 
 ### 1. Install via Composer
 
 ```bash
-composer require speralabs/eth-wallet-creator
+composer require nadun/eth-wallet-creator
 ```
 
 ### 2. Install Node.js Dependencies
 
 ```bash
-cd vendor/speralabs/eth-wallet-creator
+cd vendor/nadun/eth-wallet-creator
 npm install
 ```
 
@@ -71,7 +71,7 @@ return [
 ### Using the Facade
 
 ```php
-use SperaLabs\EthWallet\Facades\EthWallet;
+use Nadun\EthWallet\Facades\EthWallet;
 
 // Generate a new wallet with 12-word mnemonic
 $wallet = EthWallet::generate();
@@ -193,7 +193,7 @@ php artisan eth-wallet:validate "your mnemonic phrase here"
 ```php
 namespace App\Http\Controllers;
 
-use SperaLabs\EthWallet\Facades\EthWallet;
+use Nadun\EthWallet\Facades\EthWallet;
 use Illuminate\Http\Request;
 
 class WalletController extends Controller
@@ -247,7 +247,7 @@ class WalletController extends Controller
 ## Dependency Injection
 
 ```php
-use SperaLabs\EthWallet\WalletService;
+use Nadun\EthWallet\WalletService;
 
 class MyService
 {
@@ -319,8 +319,8 @@ Default Ethereum path: m/44'/60'/0'/0/0
 ## Error Handling
 
 ```php
-use SperaLabs\EthWallet\Exceptions\WalletGenerationException;
-use SperaLabs\EthWallet\Exceptions\NodeBridgeException;
+use Nadun\EthWallet\Exceptions\WalletGenerationException;
+use Nadun\EthWallet\Exceptions\NodeBridgeException;
 
 try {
     $wallet = EthWallet::generate();
@@ -364,7 +364,7 @@ Or in `config/eth-wallet.php`:
 Ensure the Node.js script is executable:
 
 ```bash
-chmod +x vendor/speralabs/eth-wallet-creator/node-bridge/wallet-generator.js
+chmod +x vendor/nadun/eth-wallet-creator/node-bridge/wallet-generator.js
 ```
 
 ## Advanced Usage
@@ -408,8 +408,8 @@ MIT License - see [LICENSE](LICENSE) file for details
 ## Support
 
 For issues and questions:
-- GitHub Issues: [https://github.com/speralabs/eth-wallet-creator/issues](https://github.com/speralabs/eth-wallet-creator)
-- Email: info@speralabs.com
+- GitHub Issues: [https://github.com/nadun/eth-wallet-creator/issues](https://github.com/nadun/eth-wallet-creator/issues)
+- Email: nadungatamanna@gmail.com
 
 ## Contributing
 
@@ -426,4 +426,4 @@ Pull requests are welcome! Please ensure:
 
 ---
 
-**Made with ❤️ by SperaLabs**
+**Made with ❤️ by Nadun**

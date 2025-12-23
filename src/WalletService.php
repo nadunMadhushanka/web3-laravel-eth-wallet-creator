@@ -1,9 +1,9 @@
 <?php
 
-namespace SperaLabs\EthWallet;
+namespace Nadun\EthWallet;
 
-use SperaLabs\EthWallet\Exceptions\WalletGenerationException;
-use SperaLabs\EthWallet\Exceptions\NodeBridgeException;
+use Nadun\EthWallet\Exceptions\WalletGenerationException;
+use Nadun\EthWallet\Exceptions\NodeBridgeException;
 use Symfony\Component\Process\Process;
 use Symfony\Component\Process\Exception\ProcessFailedException;
 

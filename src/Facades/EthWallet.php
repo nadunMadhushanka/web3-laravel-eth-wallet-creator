@@ -1,6 +1,6 @@
 <?php
 
-namespace SperaLabs\EthWallet\Facades;
+namespace Nadun\EthWallet\Facades;
 
 use Illuminate\Support\Facades\Facade;
 
@@ -10,10 +10,10 @@ use Illuminate\Support\Facades\Facade;
  * @method static array deriveChildWallet(string $mnemonic, int $index = 0)
  * @method static bool validateMnemonic(string $mnemonic)
  * @method static array getAddressFromPrivateKey(string $privateKey)
- * @method static \SperaLabs\EthWallet\WalletService setNodePath(string $path)
- * @method static \SperaLabs\EthWallet\WalletService setDerivationPath(string $path)
+ * @method static \Nadun\EthWallet\WalletService setNodePath(string $path)
+ * @method static \Nadun\EthWallet\WalletService setDerivationPath(string $path)
  *
- * @see \SperaLabs\EthWallet\WalletService
+ * @see \Nadun\EthWallet\WalletService
  */
 class EthWallet extends Facade
 {

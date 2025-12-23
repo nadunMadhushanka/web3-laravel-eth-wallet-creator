@@ -14,7 +14,7 @@ We release patches for security vulnerabilities for the following versions:
 
 If you discover a security vulnerability within this package, please send an email to:
 
-**security@speralabs.com**
+**nadungatamanna@gmail.com**
 
 Please include:
 

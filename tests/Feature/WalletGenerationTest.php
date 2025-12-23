@@ -1,9 +1,9 @@
 <?php
 
-namespace SperaLabs\EthWallet\Tests\Feature;
+namespace Nadun\EthWallet\Tests\Feature;
 
-use SperaLabs\EthWallet\Tests\TestCase;
-use SperaLabs\EthWallet\Facades\EthWallet;
+use Nadun\EthWallet\Tests\TestCase;
+use Nadun\EthWallet\Facades\EthWallet;
 
 class WalletGenerationTest extends TestCase
 {

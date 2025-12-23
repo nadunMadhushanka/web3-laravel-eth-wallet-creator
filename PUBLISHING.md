@@ -103,7 +103,7 @@ After submission:
 
 Your package name in `composer.json` is currently:
 ```json
-"name": "speralabs/eth-wallet-creator"
+"name": "nadun/eth-wallet-creator"
 ```
 
 **If you want to change it:**
@@ -125,7 +125,7 @@ Your package name in `composer.json` is currently:
 Once published, users can install your package:
 
 ```bash
-composer require speralabs/eth-wallet-creator
+composer require nadun/eth-wallet-creator
 ```
 
 Or (if you changed the name):
@@ -172,9 +172,9 @@ Packagist will auto-update within a few minutes!
 Add these badges to the top of your README.md:
 
 ```markdown
-[![Latest Version](https://img.shields.io/packagist/v/speralabs/eth-wallet-creator.svg?style=flat-square)](https://packagist.org/packages/speralabs/eth-wallet-creator)
-[![Total Downloads](https://img.shields.io/packagist/dt/speralabs/eth-wallet-creator.svg?style=flat-square)](https://packagist.org/packages/speralabs/eth-wallet-creator)
-[![License](https://img.shields.io/packagist/l/speralabs/eth-wallet-creator.svg?style=flat-square)](https://packagist.org/packages/speralabs/eth-wallet-creator)
+[![Latest Version](https://img.shields.io/packagist/v/nadun/eth-wallet-creator.svg?style=flat-square)](https://packagist.org/packages/nadun/eth-wallet-creator)
+[![Total Downloads](https://img.shields.io/packagist/dt/nadun/eth-wallet-creator.svg?style=flat-square)](https://packagist.org/packages/nadun/eth-wallet-creator)
+[![License](https://img.shields.io/packagist/l/nadun/eth-wallet-creator.svg?style=flat-square)](https://packagist.org/packages/nadun/eth-wallet-creator)
 [![GitHub Tests](https://img.shields.io/github/actions/workflow/status/YOUR-USERNAME/eth-wallet-creator/tests.yml?branch=main&label=tests&style=flat-square)](https://github.com/YOUR-USERNAME/eth-wallet-creator/actions)
 ```
 
@@ -230,7 +230,7 @@ Create `SECURITY.md`:
 ## Reporting a Vulnerability
 
 If you discover a security vulnerability, please email:
-security@speralabs.com
+security@nadun.com
 
 Do NOT create a public GitHub issue for security vulnerabilities.
 ```
@@ -261,7 +261,7 @@ Thank you for considering contributing!
 
 ## Package URLs After Publishing
 
-- **Packagist**: `https://packagist.org/packages/speralabs/eth-wallet-creator`
+- **Packagist**: `https://packagist.org/packages/nadun/eth-wallet-creator`
 - **GitHub**: `https://github.com/YOUR-USERNAME/eth-wallet-creator`
 - **Documentation**: Link to your README on GitHub
 

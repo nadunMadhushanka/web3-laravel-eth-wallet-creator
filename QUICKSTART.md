@@ -71,7 +71,7 @@ composer require YOUR-USERNAME/eth-wallet-creator
 
 Example:
 ```bash
-composer require speralabs/eth-wallet-creator
+composer require nadun/eth-wallet-creator
 ```
 
 ## Updating Your Package

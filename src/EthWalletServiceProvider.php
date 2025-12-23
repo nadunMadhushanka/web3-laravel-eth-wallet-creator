@@ -1,6 +1,6 @@
 <?php
 
-namespace SperaLabs\EthWallet;
+namespace Nadun\EthWallet;
 
 use Illuminate\Support\ServiceProvider;
 

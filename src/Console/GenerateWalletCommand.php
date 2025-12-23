@@ -1,9 +1,9 @@
 <?php
 
-namespace SperaLabs\EthWallet\Console;
+namespace Nadun\EthWallet\Console;
 
 use Illuminate\Console\Command;
-use SperaLabs\EthWallet\Facades\EthWallet;
+use Nadun\EthWallet\Facades\EthWallet;
 
 class GenerateWalletCommand extends Command
 {

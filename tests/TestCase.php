@@ -1,9 +1,9 @@
 <?php
 
-namespace SperaLabs\EthWallet\Tests;
+namespace Nadun\EthWallet\Tests;
 
 use Orchestra\Testbench\TestCase as Orchestra;
-use SperaLabs\EthWallet\EthWalletServiceProvider;
+use Nadun\EthWallet\EthWalletServiceProvider;
 
 class TestCase extends Orchestra
 {
@@ -17,7 +17,7 @@ class TestCase extends Orchestra
     protected function getPackageAliases($app)
     {
         return [
-            'EthWallet' => \SperaLabs\EthWallet\Facades\EthWallet::class,
+            'EthWallet' => \Nadun\EthWallet\Facades\EthWallet::class,
         ];
     }
 

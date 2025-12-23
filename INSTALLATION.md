@@ -26,7 +26,7 @@ If developing this as a package for use in Laravel projects:
 
 ```bash
 # In your Laravel project
-composer require speralabs/eth-wallet-creator
+composer require nadun/eth-wallet-creator
 
 # Or for local development, add to composer.json:
 {
@@ -37,14 +37,14 @@ composer require speralabs/eth-wallet-creator
         }
     ],
     "require": {
-        "speralabs/eth-wallet-creator": "*"
+        "nadun/eth-wallet-creator": "*"
     }
 }
 ```
 
 Then run:
 ```bash
-composer update speralabs/eth-wallet-creator
+composer update nadun/eth-wallet-creator
 ```
 
 ### 4. Publish Configuration (Optional)
@@ -58,7 +58,7 @@ php artisan vendor:publish --tag=eth-wallet-config
 Create a test route in `routes/web.php`:
 
 ```php
-use SperaLabs\EthWallet\Facades\EthWallet;
+use Nadun\EthWallet\Facades\EthWallet;
 
 Route::get('/test-wallet', function () {
     $wallet = EthWallet::generate();
@@ -86,7 +86,7 @@ To make this package publicly available:
 2. Push your code
 3. Create an account on [Packagist.org](https://packagist.org)
 4. Submit your package URL
-5. Install via: `composer require speralabs/eth-wallet-creator`
+4. Install via: `composer require nadun/eth-wallet-creator`
 
 ## Development Setup
 
